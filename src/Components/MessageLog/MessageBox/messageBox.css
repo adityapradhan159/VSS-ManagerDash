@@ -1,0 +1,293 @@
+.messageLogContainer {
+	width: 100%;
+	display: flex;
+}
+
+.MessageBox {
+	width: 25%;
+	height: calc(100vh - 56px);
+	display: flex;
+	font-family: "Noto Sans";
+	flex-direction: column;
+	position: relative;
+	background-color: white;
+}
+.messageBox-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.messageHeader {
+	margin-top: 30px;
+	width: 90%;
+	height: 39px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #d9d7d7;
+}
+.messageHeader h2 {
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.boardCast {
+	width: 90%;
+	background-color: #f6f6f6;
+	padding: 10px 0px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	color: #5e5e62;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.boardCastPara {
+	display: flex;
+	align-items: center;
+}
+.boardCast p {
+	font-size: 12.8px;
+	font-weight: 600;
+}
+.addCircle {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+.searchMessageInp {
+	margin-top: 15px;
+	width: 90%;
+}
+.searchMessageInp input {
+	width: 100%;
+	border-radius: 8px;
+	padding: 11px 0px 11px 40px !important;
+	border: 1px solid #9fa2b4;
+	outline: none;
+	background-image: url(../../../../public/images/search.svg);
+	background-repeat: no-repeat;
+	background-position: 10px 13px;
+	color: #4b506d;
+	font-weight: 400;
+	font-family: "Noto Sans";
+}
+
+/* -------------Tabs------------ */
+.messageHeaderTabs {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	height: 38px;
+	background: #f6f6f6;
+}
+
+.AllTab {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid #041342;
+	cursor: pointer;
+}
+.AllTab h2 {
+	font-size: 19px;
+	font-weight: 700;
+	color: #041342;
+}
+.ClientTab {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.ClientTab h2 {
+	font-size: 19px;
+	font-weight: 400;
+	color: #5e5e62;
+}
+.DriverTab {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.DriverTab h2 {
+	font-size: 19px;
+	font-weight: 400;
+	color: #5e5e62;
+}
+.GroupTab {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.GroupTab h2 {
+	font-size: 19px;
+	font-weight: 400;
+	color: #5e5e62;
+}
+
+/* -----------Message Logs and Chat with Operators----------- */
+.messageLogChatOperator {
+	z-index: 9;
+	background-color: white;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+		rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.messageLogs {
+	width: 50%;
+	height: 61px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #d9d7d7;
+	cursor: pointer;
+	flex-direction: column;
+}
+
+.messageLogs p {
+	font-size: 12.8px;
+	font-weight: 600;
+	margin-top: 5px;
+	color: #041342;
+}
+.chatOperator {
+	width: 50%;
+	height: 61px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	flex-direction: column;
+}
+.chatOperator p {
+	font-size: 12.8px;
+	font-weight: 600;
+	color: #5e5e62;
+	margin-top: 5px;
+}
+
+/* ---------------------------------- */
+
+.MessageTabContainer {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	font-family: "Noto Sans";
+	overflow-y: scroll;
+}
+
+.MessageTabContainer::-webkit-scrollbar {
+	width: 0px;
+	background-color: rgb(221, 216, 216);
+}
+
+.CategoryBloc-tabs {
+	display: flex;
+}
+.CategoryBloc-tabs .tabs {
+	padding: 10px 0px;
+	text-align: center;
+	width: 100%;
+	background: #f6f6f6;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+	box-sizing: content-box;
+	position: relative;
+	outline: none;
+	font-size: 19px;
+	color: #5e5e62;
+}
+
+.CategoryBloc-tabs .active-tabs {
+	color: #041342;
+	font-weight: 700;
+	border-bottom: 3px solid black;
+}
+
+.CategoryBloc-tabs button {
+	border: none;
+}
+.content-tabs {
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	overflow-y: auto;
+	margin-bottom: 70px;
+}
+
+/* .content-tabs::-webkit-scrollbar{
+    width: 3px; 
+    background-color: rgb(221, 216, 216);
+  } */
+
+.content-tabs::-webkit-scrollbar {
+	width: 10px;
+}
+.content-tabs::-webkit-scrollbar-button {
+	width: 10px;
+	background-color: #f0f0f0;
+}
+.content-tabs::-webkit-scrollbar-thumb {
+	background-color: #5e5e62;
+	border-radius: 20px;
+}
+.content-tabs::-webkit-scrollbar-track {
+	background-color: #f0f0f0;
+}
+
+.content-tabs::-webkit-scrollbar-button:single-button {
+	background-color: #eee;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.content-tabs::-webkit-scrollbar-button:single-button:vertical:increment {
+	height: 10px;
+	width: 16px;
+	background-position: center 4px;
+	background-image: url("../../../../public//images/scrollbarDown.svg");
+}
+
+.content-tabs::-webkit-scrollbar-button:single-button:vertical:decrement {
+	height: 10px;
+	width: 16px;
+	background-position: center 4px;
+	background-image: url("../../../../public/images/scrollbarUp.svg");
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.active-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.displayMessageContainer {
+	width: 75%;
+}
+
+.broadcastContainer {
+	display: none;
+	width: 75%;
+	background-color: #fafafa;
+}

@@ -1,0 +1,107 @@
+.slideWindow {
+	width: 698px;
+	height: 1024px;
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 0 5px #c2c2c2;
+	padding: 39px 30px;
+	pointer-events: fill;
+}
+.slideWindow-header-left {
+	display: flex;
+	align-items: center;
+}
+.userImage {
+	width: 50px;
+	height: 50px;
+	background: #d9d9d9;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.slideWindow-driver-details {
+	margin-top: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.address-info {
+	margin-top: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.slideWindow-truck-details,
+.country-details {
+	display: flex;
+	align-items: center;
+	margin-top: 26px;
+}
+.slideWindow-truck-details > div:nth-child(1) {
+	margin-right: 131px;
+}
+.country-details > div:nth-child(1) {
+	margin-right: 106px;
+}
+.slideWindow-driver-details .label,
+.slideWindow-truck-details .label,
+.address-info .label,
+.country-details .label {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	color: #5e5e62;
+}
+.slideWindow-driver-details .title,
+.slideWindow-truck-details .title,
+.address-info .title,
+.country-details .title {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18.36px;
+	line-height: 23px;
+	text-transform: capitalize;
+	color: #000000;
+	margin-top: 8px;
+}
+.slideWindowTabs {
+	margin-top: 33px;
+	margin-bottom: 16px;
+	position: relative;
+}
+.personalDetails {
+	position: relative;
+	margin-bottom: 16px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #5e5e6231;
+}
+
+.slideWindowTabs .nav-tabs {
+	background: #5e5e6233;
+}
+
+.address-details-title,
+.emergency-title {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18.36px;
+	line-height: 23px;
+	text-transform: capitalize;
+	color: #000000;
+}
+.emergency-contacts {
+	border-bottom: 1.5px solid #dfe0eb65;
+}
+.emergency-contacts .name {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18.36px;
+	line-height: 23px;
+	text-transform: capitalize;
+	color: #000000;
+}

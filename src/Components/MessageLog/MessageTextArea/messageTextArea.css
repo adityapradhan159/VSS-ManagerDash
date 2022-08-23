@@ -1,0 +1,119 @@
+.writeMessage {
+	width: 95%;
+	position: absolute;
+	bottom: 5%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.writeMessageContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.writeMessageContainer .voiceIcon {
+	position: absolute;
+	right: 8%;
+	top: 10%;
+	cursor: pointer;
+}
+.writeMessage .writeMessageContainer .notify {
+	width: 93.5%;
+	height: 130px;
+	border: 1px solid #9fa2b4;
+	border-radius: 8px;
+	background-color: #fcfdfe;
+}
+.writeMessage textarea{
+	width: 90%;
+	border: none;
+	outline: none;
+	height: 50%;
+	margin: 3px;
+	padding: 10px;
+	background-color: #fcfdfe;
+	font-size: 18px;
+	font-family: "Noto Sans";
+	resize: none;
+}
+.writeMessage textarea::-webkit-scrollbar{
+    width: 0px;    
+}
+.sendNotification {
+	width: 100%;
+	height: 40%;
+	border-top: 1px solid #9fa2b4;
+	display: flex;
+}
+.sendNotification-Container {
+	width: 99%;
+	display: flex;
+	justify-content: flex-end;
+}
+.sendNotification-Container input {
+	width: 25px;
+	height: 25px;
+}
+
+.sendNotification-Container p {
+	font-size: 13px;
+	font-weight: 800;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+/* ------------Sms--- */
+.smsNotify {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ------------Sms--- */
+.whatsappNotify {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 20px;
+}
+
+/* ------------Sms--- */
+.appNotify {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.send-btn {
+	width: 56px;
+	height: 56px;
+	background-color: black;
+	border-radius: 7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	cursor: pointer;
+}
+
+.checkboxSendNotification {
+	-webkit-appearance: none;
+	background-color: #ededed;
+	border: 1px solid #cacece;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.checkboxSendNotification:checked {
+	background-color: #44bba5;
+	/* border: 1px solid #adb8c0; */
+	color: white;
+}
+
+.checkboxSendNotification:checked:after {
+	content: url("../../../../public/images/tickMark.svg");
+	position: absolute;
+	top: 2px;
+	left: 5px;
+}

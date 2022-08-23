@@ -1,0 +1,199 @@
+.messageDisplayer{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.messageDisplayer .messageDay{ 
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.messageDay-Container{
+    font-size: 10px;
+    font-weight: 400;
+    padding: 2px 3px;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+}
+
+.textMessages-container{
+    margin-top: 45px;
+   position: relative;
+}
+
+.textMessages{
+    background-color: #D9D9D9;
+    font-size: 12.8px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.messageTime{
+    position: absolute;
+    top: 100%;
+    font-size: 10px;
+    font-weight: 400;
+    color: #5E5E62;
+    display: flex;
+}
+
+/* -------------Display Message-------------- */
+.displayMessage{
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.displayMessage .msgPersonName{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    height: 39px;
+    border-bottom: 1px solid #D9D7D7;
+}
+.msgPersonName h2{
+    font-size: 19px;
+    font-weight: 700;
+    color: #2185D0;
+   
+}
+
+
+/* -------------Message Displayer------------ */
+
+.messageDisplayer{
+    width: 95%;
+    height: 60%;
+    overflow-y: scroll;
+}
+.messageDisplayer::-webkit-scrollbar{
+    width: 0px;    
+}
+
+
+/* ------------Message text area----------------- */
+/* .displayMessage .writeMessage{
+    width: 95%;
+    position: absolute;
+    bottom: 5%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.writeMessage .voiceIcon{
+    position: absolute;
+    right: 8%;
+    top: 7%;
+    cursor: pointer;
+}
+.writeMessage .notify{
+    width: 93.5%;
+    height: 219px;
+    border: 1px solid #9FA2B4;
+    border-radius: 8px;
+    background-color: #FCFDFE;;
+}
+.writeMessage textarea{
+    width: 90%;
+    border: none;
+    outline: none;
+    height: 70%;
+    margin:3px;
+    padding: 10px ;
+    background-color: #FCFDFE;;
+    font-size: 18px;
+    font-family: "Noto Sans";
+    resize: none;
+}
+.sendNotification{
+    width: 100%;
+    height: 25%;
+    border-top: 1px solid #9FA2B4;
+    display: flex;
+}
+.sendNotification-Container{
+    width: 99%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.sendNotification-Container input{
+    width: 25px;
+    height: 25px;
+}
+
+.sendNotification-Container p{
+    font-size: 13px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-bottom:0px
+}
+/* ------------Sms--- 
+.smsNotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------Sms--- 
+.whatsappNotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+
+.appNotify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.send-btn{
+    width: 56px;
+    height: 56px;
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.checkboxSendNotification{
+    -webkit-appearance: none;
+    background-color: #EDEDED;
+	border: 1px solid #cacece;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+.checkboxSendNotification:checked {
+	background-color: #44BBA5;
+	/* border: 1px solid #adb8c0; 
+	color: white;
+}
+
+.checkboxSendNotification:checked:after {
+	content: url('../../../public/images/tickMark.svg');
+	position: absolute;
+	top: 3px;
+	left: 4px;
+} */

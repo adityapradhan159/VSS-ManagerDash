@@ -1,0 +1,155 @@
+.ClientDetailsSlidingWindow {
+	width: 698px;
+	height: 100vh;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1rem 2rem;
+	box-shadow: 0 0 20px 0px gray;
+}
+.ClientDetailsSlidingWindow .clientBasicInfo {
+	display: flex;
+}
+.ClientDetailsSlidingWindow .clientBasicInfo .img {
+	width: 91px;
+	height: 53px;
+
+	background: #d9d9d9;
+	border-radius: 8px;
+
+	margin-right: 1rem;
+}
+.ClientDetailsSlidingWindow .clientBasicInfo .name {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 26px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #151515;
+}
+.ClientDetailsSlidingWindow .clientBasicInfo .Status {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	margin-top: 0.5rem;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #000000;
+}
+
+.ClientDetailsSlidingWindow .title {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Grey */
+	color: #5e5e62;
+}
+.ClientDetailsSlidingWindow .infoText {
+	/* H3/R */
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 0.5rem;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}
+
+.ClientDetailsSlidingWindow .ContactpersonInfo {
+	border: 1px solid rgba(223, 224, 235, 0.4);
+	border-left: none;
+	border-right: none;
+	padding: 0.7rem 0.2rem;
+}
+.ClientDetailsSlidingWindow .driverPersonal .label {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Grey */
+	color: #5e5e62;
+}
+.ClientDetailsSlidingWindow .driverPersonal .Contactperson {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Blue (CTA)i */
+	color: #041342;
+}
+.ClientDetailsSlidingWindow .ClientPanCard {
+	border-bottom: 1.5px solid #dfe0eb4d;
+	padding-bottom: 0.5rem;
+}
+.ClientDetailsSlidingWindow .sectionTitle {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.ClientDetailsSlidingWindow .proofId {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}
+.ClientDetailsSlidingWindow .validity {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.ClientDetailsSlidingWindow .box {
+	width: 78px;
+	height: 78px;
+
+	background: #d9d9d9;
+	border-radius: 8px;
+}

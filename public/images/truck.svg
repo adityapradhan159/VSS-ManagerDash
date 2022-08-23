@@ -1,0 +1,11 @@
+<svg id="truck" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="29" viewBox="0 0 29 29">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="18" height="18" transform="translate(5.5 5.5)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_3" data-name="Rectangle 3" width="29" height="29" rx="14.5" fill="#dcdcdc"/>
+  <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+    <path id="Path_3" data-name="Path 3" d="M5.5,8.313A2.813,2.813,0,0,1,8.313,5.5H20.688A2.812,2.812,0,0,1,23.5,8.313V18.438a2.81,2.81,0,0,1-1.125,2.25v1.688A1.124,1.124,0,0,1,21.25,23.5H20.125A1.124,1.124,0,0,1,19,22.375V21.25H10v1.125A1.124,1.124,0,0,1,8.875,23.5H7.75a1.124,1.124,0,0,1-1.125-1.125V20.688A2.807,2.807,0,0,1,5.5,18.438Zm4.567,2.538-.629,2.524H19.563l-.629-2.524A1.1,1.1,0,0,0,17.84,10H11.128A1.085,1.085,0,0,0,10.067,10.851ZM8.875,15.625A1.125,1.125,0,1,0,10,16.75,1.124,1.124,0,0,0,8.875,15.625Zm11.25,2.25A1.125,1.125,0,1,0,19,16.75,1.124,1.124,0,0,0,20.125,17.875Z" fill="#5e5e62"/>
+  </g>
+</svg>

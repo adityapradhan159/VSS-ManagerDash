@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap");
+
+.sidebar {
+	width: 377px;
+	height: calc(100vh - 56px);
+	font-family: "Noto Sans", sans-serif;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color: white;
+}
+.sidebar p,
+.sidebar h3 {
+	margin-bottom: 0;
+	/* font-size: inherit; */
+}
+.sidebar-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 7;
+	background-color: white;
+}
+
+.searchBar-NavBtn {
+	width: 95%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 7px;
+	padding: 10px 0;
+	position: relative;
+	background-color: white;
+}
+
+.search-inp {
+	font-family: "Noto Sans";
+	width: 290px;
+	height: 40px;
+	border-radius: 8px;
+	border: 1px solid #9fa2b4;
+	padding: 0px 40px !important;
+	outline: none;
+	background-image: url(../../../../public/images/search.svg);
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
+}
+.NavBtn {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.side-nav {
+	width: 835px;
+	height: 58px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	background: linear-gradient(0deg, #ffffff, #ffffff), #ffffff;
+	border-radius: 8px;
+	position: absolute;
+	left: 110%;
+	top: -50%;
+	margin-top: 30px;
+	border-radius: 8px;
+	transition: all 0.3s ease;
+}
+
+.side-nav-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 8px;
+	position: absolute;
+	width: 740.5px;
+	height: 42px;
+	left: 16px;
+	top: 8px;
+}
+.side-nav-container p {
+	font-size: 12.8px;
+	font-weight: 600;
+	font-family: "Noto Sans";
+	font-style: normal;
+}
+.side-nav-container .source {
+	width: 108.5px;
+	height: 42px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.side-nav-container .destination {
+	width: 138.5px;
+	height: 42px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.side-nav-container .client {
+	width: 102.5px;
+	height: 42px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.side-nav-container .zone {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	width: 96.5px;
+	height: 42px;
+}
+
+.side-nav-container .tripStatus {
+	width: 132.5px;
+	height: 42px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.side-nav-container .filter {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	width: 122px;
+	height: 42px;
+}
+
+.divider {
+	width: 85%;
+	background-color: rgb(194, 194, 194);
+	height: 0.5px;
+	margin-top: 8px;
+	z-index: 9;
+}
+
+.side-nav {
+	display: none;
+}
+
+.side-nav.expanded {
+	display: block;
+	padding-right: 0;
+}
+.ActiveScheduleContainer {
+	width: 100%;
+	height: 100%;
+}

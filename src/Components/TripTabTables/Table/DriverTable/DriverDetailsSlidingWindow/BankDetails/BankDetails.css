@@ -1,0 +1,89 @@
+.addBankDetails {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 10px;
+
+	background: #fafafa;
+	border: 1px dashed #b4b6be;
+	border-radius: 8px;
+	margin-top: 1.5rem;
+	cursor: pointer;
+}
+
+.driverBankDetails .save {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 10px;
+
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #ffffff;
+	background: #041342;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
+.driverBankDetails .close {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 10px;
+
+	/* Para/B */
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #ffffff;
+
+	background: #c5c5c5;
+	border-radius: 4px;
+}
+.driverBankDetails .details div {
+	margin-bottom: 1rem;
+}
+.driverBankDetails .title {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Grey */
+	color: #5e5e62;
+}
+.driverBankDetails .infoText {
+	/* H3/R */
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 0.5rem;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}

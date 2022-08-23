@@ -1,0 +1,38 @@
+.sosLog {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+
+	text-decoration-line: underline;
+	text-transform: capitalize;
+
+	/* Extra/Emergency */
+	color: #bb0606;
+}
+.viewPermit {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12.8px;
+	line-height: 17px;
+	text-decoration-line: underline;
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.links {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12.8px;
+	line-height: 17px;
+	text-decoration-line: underline;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: #216cb0;
+}

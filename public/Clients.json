@@ -1,0 +1,47 @@
+{
+    "tableHeads":[
+        "Client Company", 
+        "Truck company",
+        "Ongoing assignments",
+        "Contact person",
+        "State & City",
+        "Phone Number",
+        "Actions"
+    ],
+    "tableData":[
+        {
+        "Client Company":"VN Cosemetics", 
+        "Truck company":"Company 1",
+        "Ongoing assignments":"3 Assignments",
+        "Contact person":"Rakesh  Kumar",
+        "State & City":{
+            "state":"Maharastra",
+            "city":"Pune"
+            },
+        "Phone Number":"0123456789"
+        },
+        {
+        "Client Company":"VN Cosemetics", 
+        "Truck company":"Company 1",
+        "Ongoing assignments":"3 Assignments",
+        "Contact person":"Rakesh  Kumar",
+        "State & City":{
+            "state":"Maharastra",
+            "city":"Pune"
+            },
+        "Phone Number":"0123456789"
+        },
+        {
+        "Client Company":"VN Cosemetics", 
+        "Truck company":"Company 1",
+        "Ongoing assignments":"3 Assignments",
+        "Contact person":"Rakesh  Kumar",
+        "State & City":{
+            "state":"Maharastra",
+            "city":"Pune"
+            },
+        "Phone Number":"0123456789"
+        }
+        
+    ]
+}

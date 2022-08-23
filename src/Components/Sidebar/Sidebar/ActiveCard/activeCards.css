@@ -1,0 +1,162 @@
+.ActiveCards{
+    padding: 10px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+}
+.ActiveCards:hover{
+    background-color: #f3f3f3;
+}
+.ActiveCards:hover .tripContact .call{
+    background: white !important;
+}
+.ActiveCards:hover .tripContact .message{
+    background: white !important;
+}
+.ActiveCards:hover .tripContact .menu{
+    background: white !important;
+}
+.ActiveCard-container{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ActiveTripDetails{
+    width: 45%;
+    
+}
+.main-icon{
+    width: auto;
+}
+/* ---------MAin icon-------- */
+.mainIconContainer{
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+/* ---------Trip Name------- */
+.activeTripName{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+/* -------Comapny Name------ */
+.companyName{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* -----------Route Name---------- */
+.route{
+    font-size: 13px;
+    font-weight: 300;
+    color: black;
+    font-style: italic;
+}
+
+/* -----------Person---------- */
+.person{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.person-img{
+    width: 25px;
+    height: 25px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+.person p{
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.tripContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+   
+}
+.tripContact-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.tripContact .call{
+    width: 38px;
+    height: 38px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  
+}
+.triangleDiv{
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 5%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+ 
+}
+.customerPhoneNo{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    top: 105%;
+    left: 10px;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tripContact .message{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+}
+
+.tripContact .menu{
+    width: 44px;
+    height: 44px;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sos-btn{
+    width: 112px;
+    min-height: 35px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-family: "Noto Sans";
+    font-size: 14px;
+}

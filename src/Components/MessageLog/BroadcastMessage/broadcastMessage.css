@@ -1,0 +1,173 @@
+.BroadcastMessage {
+	display: flex;
+	width: 100%;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+}
+.toBroadCast {
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #dedcdc;
+	display: flex;
+	align-items: center;
+	padding: 0px 30px;
+}
+.toBroadCast .selectDiv {
+	width: 95%;
+	line-height: 0 !important;
+}
+.toBroadCast .selectDiv .css-6j8wv5-Input {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+/* .toBroadCast .toPara{
+    width: 5%;
+} */
+.toBroadCast .toPara h2 {
+	font-size: 19px;
+	font-weight: 700;
+	color: #2185d0;
+}
+
+/* .customerList{
+    width: 339px;
+    height: 450px;
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    background-color:#FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow-y: hidden;
+    z-index: 2;
+} */
+
+/* ---------BroadCast Tabs------------ */
+.BroadcastBloc-tabs {
+	display: flex;
+}
+.BroadcastBloc-tabs .broadCastTabs {
+	padding: 10px 0px;
+	text-align: center;
+	width: 100%;
+	background: #ffffff;
+	border: none;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+	box-sizing: content-box;
+	position: relative;
+	outline: none;
+	font-weight: 700;
+	font-size: 14px;
+	color: #5e5e62;
+}
+
+.BroadcastBloc-tabs .active-tabs {
+	color: #041342;
+	font-weight: 700;
+	border-bottom: 3px solid #041342;
+}
+
+/* --------------Select All Button--------------- */
+
+.selectAll {
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #d9d7d7;
+	display: flex;
+	align-items: center;
+	padding: 0px 20px;
+	justify-content: space-between;
+}
+
+.selectAllBtn {
+	width: 110px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	border: 1px solid #041342;
+	padding: 0px 10px;
+	border-radius: 8px;
+	gap: 0px 5px;
+	cursor: pointer;
+}
+.selectAllBtn h3 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.selectCancel {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.broadCastContent-tabs {
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	overflow-y: scroll;
+}
+
+.broadCastContent-tabs::-webkit-scrollbar {
+	width: 3px;
+	background-color: rgb(221, 216, 216);
+}
+
+.displayMessageContainer {
+	width: 75%;
+}
+
+.broadcastContainer {
+	display: none;
+	width: 75%;
+	background-color: #fafafa;
+}
+
+/* ---------------Write Message---------- */
+.BroadcastMessage .writeMessage {
+	width: 95%;
+	position: absolute;
+	bottom: 5%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	z-index: 0;
+}
+
+.OptionDiv {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 400px;
+	height: auto;
+}
+.OptionDiv::-webkit-scrollbar {
+	width: 10px;
+}
+.OptionDiv::-webkit-scrollbar-track {
+	background-color: #f0f0f0;
+}
+.OptionDiv::-webkit-scrollbar-thumb {
+	background-color: #5e5e62;
+	border-radius: 20px;
+}
+.OptionDiv::-webkit-scrollbar-button:single-button {
+	background-color: #eee;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.OptionDiv::-webkit-scrollbar-button:single-button:vertical:increment {
+	height: 15px;
+	width: 16px;
+	background-position: center 4px;
+	background-image: url(../../../../public/images/scrollbarDown.svg);
+}
+.OptionDiv::-webkit-scrollbar-button:single-button:vertical:decrement {
+	height: 20px;
+	width: 16px;
+	background-position: center 4px;
+	background-image: url(../../../../public/images/scrollbarUp.svg);
+}

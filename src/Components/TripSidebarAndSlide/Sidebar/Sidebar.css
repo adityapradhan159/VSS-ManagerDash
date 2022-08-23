@@ -1,0 +1,255 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 302px;
+	height: calc(100vh - 170px);
+	/* height: 511px; */
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 0 5px #c2c2c2;
+	pointer-events: fill;
+	position: relative;
+}
+.sidebar-title {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12.8px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	color: #000000;
+}
+.markerBox {
+	display: flex;
+	padding: 10px;
+	gap: 10px;
+	background: white;
+	border-radius: 4px;
+	width: 280px;
+	height: 115px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+.markerBox.active {
+	background: #eeeeee;
+	box-shadow: 0 3px 5px #c3c3c3;
+}
+.sidebar .markerBoxCarLogo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 10px; */
+	gap: 10px;
+	width: 29px;
+	height: 29px;
+	color: #ffffff;
+	background: #44b49c;
+	border-radius: 38px;
+}
+.sidebar .markerScheduleDate {
+	width: 52.92px;
+	height: 54.71px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #ffffff;
+	/* Blue (CTA)i */
+	border: 0.896867px solid #041342;
+	border-radius: 7.17493px;
+}
+.sidebar .markerScheduleDate .month {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11.4799px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.sidebar .markerScheduleDate .date {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19.8387px;
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+
+	/* Blue (CTA)i */
+	color: #041342;
+}
+.sidebar .markerScheduleDate .year {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11.4799px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+
+.truckDetail {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	height: max-content;
+
+	border-bottom: 1px solid #cecece;
+}
+.truckLiciense {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 2px;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	color: #000000;
+}
+.truckCompany {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12.8px;
+	margin-bottom: 2px;
+
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #000000;
+}
+.truckRoute {
+	font-family: "Mulish";
+	font-style: italic;
+	font-weight: 300;
+	font-size: 12.8px;
+	margin-bottom: 6.5px;
+
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #000000;
+}
+.sidebar .sosBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.iconOptions {
+	padding-top: 5px;
+	/* padding-top: 12.5px;
+	padding-bottom: 12.5px; */
+}
+.sidebar > .nav-tabs {
+	display: none;
+}
+.sidebar > .tab-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 10px;
+}
+.sidebar .tab-menu > div {
+	width: 50%;
+	padding: 0 1rem 0.6rem;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.sidebar .tab-menu .active {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15.36px;
+	/* line-height: 19px; */
+	text-transform: capitalize;
+	color: #000000;
+	border-bottom: 3px solid #000;
+}
+
+.sidebar .tab-content {
+	height: calc(100% - 45px);
+	display: flex;
+}
+
+/* 
+========================================
+sliding window css
+======================================== */
+/* .sidebar .slidingBar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	height: 100%;
+	width: 400px;
+	padding: 1rem;
+	pointer-events: fill;
+	z-index: 500;
+	border-radius: 8px;
+}
+.sidebar .truckLogo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: black;
+}
+.sidebar .slidingBar .slideText {
+	font-size: 0.9rem;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar .slidingBar .nav-tabs .nav-item.show .nav-link,
+.sidebar .slidingBar .nav-tabs .nav-link.active {
+	color: #67b1fa;
+	border: none;
+	background-color: transparent;
+	border-color: transparent transparent blue transparent;
+	border-bottom: 2px solid;
+}
+.sidebar .slidingBar .nav.nav-tabs {
+	background-color: #e4e0e077;
+}
+.sidebar .slidingBar .nav-tabs .nav-link {
+	color: black;
+}
+
+.sidebar .slidingBar .nav-tabs .nav-link:hover {
+	border-color: transparent transparent blue transparent;
+}
+.sidebar .slidingBar .markers {
+	padding: 0.5rem;
+}
+.sidebar .slidingBar .markers.active {
+	background-color: #d3d3d338;
+} */
+/* 
+========================================
+sliding window css end
+======================================== */
+
+.markerWrapper::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.markerWrapper {
+	-ms-overflow-style: none;
+	scrollbar-width: none; /* Firefox */
+}

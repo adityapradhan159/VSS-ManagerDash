@@ -1,0 +1,27 @@
+.uploadField {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Blue (CTA)i */
+	color: #041342;
+}
+.files {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 4px 8px;
+	gap: 4px;
+
+	width: 117px;
+	height: 27px;
+	margin-left: 8px;
+
+	background: #e3e3e3;
+	border-radius: 4px;
+}

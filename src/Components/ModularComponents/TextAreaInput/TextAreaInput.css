@@ -1,0 +1,12 @@
+.textArea {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px !important;
+	line-height: 19px;
+
+	/* identical to box height */
+	letter-spacing: 0.3px;
+
+	color: #b5b8c4;
+}

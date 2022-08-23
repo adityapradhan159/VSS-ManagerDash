@@ -1,0 +1,13 @@
+.addClientTruck .title {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}

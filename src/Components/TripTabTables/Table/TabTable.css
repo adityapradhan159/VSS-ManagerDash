@@ -1,0 +1,50 @@
+.actionIcons {
+	margin-right: 19px;
+}
+.tripTabTable table {
+	/* border-collapse: separate !important;
+	border-spacing: 0 10px !important; */
+}
+.tripTabTable th {
+	padding-top: 8px !important;
+	padding-bottom: 16px !important;
+	border-bottom: 1.5px solid #38394356 !important;
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: capitalize;
+
+	color: #5e5e62;
+}
+.tripTabTable td {
+	/* display: inline; */
+	/* background-color: white; */
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: capitalize;
+
+	color: #808080;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.tripTabTable tr {
+	border: transparent !important;
+	vertical-align: text-top;
+}
+/* .tripTabTable tr:nth-child(even) {
+	background-color: rgba(79, 94, 126, 0.315);
+} */
+.tripTabTable input.largerCheckbox {
+	width: 26px;
+	height: 26px;
+}

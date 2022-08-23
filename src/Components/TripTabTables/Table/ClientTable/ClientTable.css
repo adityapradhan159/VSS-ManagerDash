@@ -1,0 +1,11 @@
+.clientTable .link {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12.8px;
+	line-height: 17px;
+	text-decoration-line: underline;
+	text-transform: capitalize;
+	color: #216cb0;
+	cursor: pointer;
+}

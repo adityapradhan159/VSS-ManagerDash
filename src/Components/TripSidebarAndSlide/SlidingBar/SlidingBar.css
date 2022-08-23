@@ -1,0 +1,251 @@
+.slidingBar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	height: 100%;
+	width: 479px;
+	padding: 1rem;
+	pointer-events: fill;
+	z-index: 500;
+	border-radius: 8px;
+}
+.truckLogo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: black;
+}
+.slidingBar .slideText {
+	font-size: 0.9rem;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slidingBar .nav-tabs .nav-item.show .nav-link,
+.slidingBar .nav-tabs .nav-link.active {
+	color: #000000;
+	border: none;
+	background-color: transparent;
+	border-color: transparent transparent rgb(0, 0, 0) transparent;
+	border-bottom: 2px solid;
+}
+.slidingBar .nav.nav-tabs {
+	background-color: #e4e0e077;
+}
+.slidingBar .nav-tabs .nav-link {
+	color: rgb(97, 94, 94);
+}
+
+.slidingBar .nav-tabs .nav-link:hover {
+	border-color: transparent transparent rgb(0, 0, 0) transparent;
+}
+.slidingBar .markers {
+	padding: 0.5rem;
+}
+.slidingBar .markers.active {
+	background-color: #d3d3d338;
+}
+.slidingBar .trackingCard {
+	/* height: 80px; */
+	padding: 0 2rem 2rem;
+	position: relative;
+}
+.slidingBar .trackingCard .statusIcon {
+	position: absolute;
+	display: flex;
+	left: 0px;
+	top: 0;
+}
+.slidingBar .SlidebartrackingTab {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding-bottom: 0.3rem;
+}
+.slidingBar .tracking {
+	overflow-y: scroll;
+	border-left: 1px solid rgba(94, 94, 98, 0.1);
+}
+.slidingBar .tracking .status,
+.slidingBar .tracking .time {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12.8px;
+	line-height: 16px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.slidingBar .tracking .status {
+	margin-bottom: 0.7rem;
+}
+.slidingBar .tracking .location {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12.8px;
+	line-height: 16px;
+	margin-top: 0.7rem;
+	margin-bottom: 0.7rem;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.slidingBar .tracking .speed {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12.8px;
+	line-height: 16px;
+
+	/* identical to box height */
+	letter-spacing: 0.4px;
+
+	/* Blue (CTA)i */
+	color: #041342;
+
+	opacity: 0.6;
+}
+
+.slidingBar .documents {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow-y: auto;
+}
+.slidingBar .permit {
+	height: 100%;
+	overflow-y: auto;
+}
+.slidingBar .tab-pane {
+	width: 100%;
+}
+.slidingBar .documents .reg_certificate {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(94, 94, 98, 0.1);
+	padding: 1rem 0;
+}
+.slidingBar .documents .title {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.slidingBar .documents .reg-no {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	margin-top: 0.8rem;
+	/* Black */
+	color: #000000;
+}
+.slidingBar .documents .company {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+	/* Grey */
+	color: #5e5e62;
+}
+.slidingBar .documents .validity {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	margin-bottom: 0.8rem;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.slidingBar .documents .docfile {
+	width: 78px;
+	height: 78px;
+
+	background: #d9d9d9;
+	border-radius: 8px;
+}
+.slidingBar .permit .headerTitle {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+
+	color: #000000;
+}
+.slidingBar .permit .headerStatus {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12.8px;
+	line-height: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 8px;
+	gap: 10px;
+
+	width: 53px;
+	height: 24px;
+
+	background: #218d1f;
+	border-radius: 25px;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #ffffff;
+}
+.slidingBar .permit .headerStatus.expired {
+	background: #bb0606;
+}
+.slidingBar .permit .lastUpdate {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.slidingBar .tracking::-webkit-scrollbar,
+.slidingBar .documents::-webkit-scrollbar,
+.slidingBar .permit::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.slidingBar .tracking,
+.slidingBar .documents,
+.slidingBar .permit {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,5 @@
+.DetailsIndividualPage {
+	background-color: white;
+	padding: 10px 80px;
+	height: calc(100vh - 57px);
+}

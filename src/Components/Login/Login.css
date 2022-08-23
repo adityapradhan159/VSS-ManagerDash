@@ -1,0 +1,105 @@
+.login {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	height: 100vh;
+}
+.login input {
+	background: #fcfdfe;
+	border: 1px solid #9fa2b4;
+	border-radius: 8px;
+}
+.login .login-left {
+	height: 100%;
+	background-image: url("/public/loginpageImage.png");
+	/* background-position: ; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.login .login-left .imageOverlayText {
+	/* position: absolute; */
+	display: flex;
+	flex-direction: column;
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36.12px;
+	line-height: 45px;
+	text-align: left;
+	text-transform: capitalize;
+	margin-top: 46px;
+	margin-left: 51px;
+
+	color: #ffffff;
+}
+
+.login .login-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login .login-form {
+	/* width: 40vw; */
+	height: 95vh;
+	width: 546px;
+	/* height: 659px; */
+	background-color: white;
+	border-radius: 0.5rem;
+	box-shadow: 4px 8px 45px rgba(0, 0, 0, 0.15);
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+.login .login-right .login-form .loginType {
+	margin-top: 32px;
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36.12px;
+	line-height: 45px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000000;
+}
+.login .login-form .login-form-head {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* padding-top: 2rem; */
+}
+.login .login-form .login-form-body {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	justify-content: center;
+}
+.loginbtn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 10px;
+	color: white;
+	/* position: absolute; */
+	width: 277px;
+	height: 40px;
+	cursor: pointer;
+	/* Blue (CTA)i */
+	background: #041342;
+
+	/* Drop shadow */
+	box-shadow: 7px 11px 16px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+@media (min-width: 1440px) {
+	.login .login-form {
+		/* height: 65vh; */
+		height: 659px;
+	}
+}

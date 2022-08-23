@@ -1,0 +1,44 @@
+{
+    "tableHeads":[
+        "Truck Details", 
+        "Status",
+        "driver Details",      
+        "Triggered on",
+        "Actions"
+    ],
+    "tableData":[
+        {
+            "Truck Details":{
+                "License":"UP 01 AP 1345",
+                "company":"VN Cosemetics"
+            },        
+            "Status":{
+                "type":"Emergency",
+                "icon":"/assets/alarm.png"
+            },
+            "driverDetails":{
+                "name":"Rajesh Kumar",
+                "phone":"018546846531"
+            },
+            "triggered":"24/01/2022",
+            "action":"Emergency"
+        },
+        {
+            "Truck Details":{
+                "License":"ZP 01 AP 1345",
+                "company":"VN Cosemetics"
+            },        
+            "Status":{
+                "type":"Action req.",
+                "icon":"/assets/actionReq.png"
+            },
+            "driverDetails":{
+                "name":"Rajesh Kumar",
+                "phone":"018546846531"
+            },
+            "triggered":"24/01/2022",
+            "action":"Action req."
+        }        
+        
+    ]
+}

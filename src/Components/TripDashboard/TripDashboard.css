@@ -1,0 +1,8 @@
+.TripDashboard {
+	display: flex;
+	flex-direction: column;
+	background-color: #cacaca;
+	height: 100vh;
+	min-width: 100vw;
+	overflow: hidden;
+}

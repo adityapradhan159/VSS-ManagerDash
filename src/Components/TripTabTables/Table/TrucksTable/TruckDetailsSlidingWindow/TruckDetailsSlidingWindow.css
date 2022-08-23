@@ -1,0 +1,285 @@
+.TruckDetailsSlidingWindow {
+	width: 698px;
+	height: 100vh;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1rem 2rem;
+	box-shadow: 0 0 20px 0px gray;
+	overflow: hidden;
+}
+.TruckDetailsSlidingWindow .LicensePlate {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 26px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #151515;
+}
+.TruckDetailsSlidingWindow .companyAndStatus {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #000000;
+}
+.truckDetailsSlideInfo .title,
+.tab-content .title {
+	font-family: "Noto Sans" !important;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px !important;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Grey */
+	color: #5e5e62 !important;
+}
+.truckDetailsSlideInfo .infoText,
+.tab-content .infoText {
+	/* H3/R */
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 0.5rem;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}
+.TruckDetailsSlidingWindow .driverPersonal {
+	border: 1px solid rgba(223, 224, 235, 0.4);
+	border-left: none;
+	border-right: none;
+	padding: 0.7rem 0.2rem;
+}
+.TruckDetailsSlidingWindow .driverPersonal .label {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Grey */
+	color: #5e5e62;
+}
+.TruckDetailsSlidingWindow .driverPersonal .driverName {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Blue (CTA)i */
+	color: #041342;
+}
+.TruckDetailsSlidingWindow .nav-tabs {
+	background: rgba(94, 94, 98, 0.05);
+}
+
+.TruckDetailsSlidingWindow .documents,
+.TruckDetailsSlidingWindow .TripHistory {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow-y: auto;
+}
+/* .TruckDetailsSlidingWindow .permit {
+	height: 100%;
+	overflow-y: auto;
+}
+.TruckDetailsSlidingWindow .tab-pane {
+	width: 100%;
+} */
+
+.TruckDetailsSlidingWindow .documents .reg_certificate {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(94, 94, 98, 0.1);
+	padding: 1rem 0;
+}
+.TruckDetailsSlidingWindow .documents .title {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.TruckDetailsSlidingWindow .documents .reg-no {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	margin-top: 0.8rem;
+	/* Black */
+	color: #000000;
+}
+.TruckDetailsSlidingWindow .documents .company {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+	/* Grey */
+	color: #5e5e62;
+}
+.TruckDetailsSlidingWindow .documents .status {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 8px;
+	gap: 10px;
+
+	width: 53px;
+	height: 26px;
+
+	background: #218d1f;
+	border-radius: 25px;
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #ffffff;
+}
+.TruckDetailsSlidingWindow .documents .validity {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15.36px;
+	line-height: 19px;
+	text-transform: capitalize;
+	margin-bottom: 0.8rem;
+
+	/* Grey */
+	color: #5e5e62;
+}
+.TruckDetailsSlidingWindow .documents .docfile {
+	width: 78px;
+	height: 78px;
+
+	background: #d9d9d9;
+	border-radius: 8px;
+}
+
+.TruckDetailsSlidingWindow .bottomTabs {
+	height: calc(100% - 200px);
+	/* overflow-y: auto;
+	overflow-x: hidden; */
+}
+
+.TruckDetailsSlidingWindow .TripHistory .tripHistoryFilter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.TruckDetailsSlidingWindow .TripHistory .tripHistoryFilter .sortByDate,
+.TruckDetailsSlidingWindow .TripHistory .tripHistoryFilter .sortByCalendar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 16px;
+	gap: 24px;
+
+	width: 143.5px;
+	height: 42px;
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12.8px;
+	line-height: 17px;
+	text-transform: capitalize;
+
+	color: #2f2f33;
+
+	border-radius: 8px;
+}
+.TruckDetailsSlidingWindow .TripHistory .tripHistoryFilter .sortByDate:hover,
+.TruckDetailsSlidingWindow
+	.TripHistory
+	.tripHistoryFilter
+	.sortByCalendar:hover {
+	cursor: pointer;
+	background: #f5f5f5;
+}
+.TruckDetailsSlidingWindow .TripHistory .trips {
+	margin-top: 15px;
+}
+.TruckDetailsSlidingWindow .TripHistory .trips .tripItem {
+	margin-top: 18px;
+}
+.TruckDetailsSlidingWindow .TripHistory .trips .title {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}
+.TruckDetailsSlidingWindow .TripHistory .trips .route,
+.TruckDetailsSlidingWindow .TripHistory .trips .date {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	margin-top: 4px;
+	/* identical to box height */
+
+	/* Black */
+	color: #000000;
+}
+
+/* =========================================
+ScrollBar hide
+========================================= */
+.TruckDetailsSlidingWindow .documents::-webkit-scrollbar,
+.TruckDetailsSlidingWindow .TripHistory::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.TruckDetailsSlidingWindow .documents,
+.TruckDetailsSlidingWindow .TripHistory {
+	-ms-overflow-style: none;
+	scrollbar-width: none; /* Firefox */
+}

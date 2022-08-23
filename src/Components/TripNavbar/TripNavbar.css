@@ -1,0 +1,267 @@
+.tripNavbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: var(--nav-height);
+	padding: 0 var(--nav-lr-pad);
+	background-color: white;
+	border-bottom: 2px solid #c5c5c5;
+}
+.tripNavbar .logo {
+	margin-right: var(--nav-logo-me);
+}
+.tripNavbar .nav-left {
+	width: 60%;
+}
+.tripNavbar .nav-left,
+.tripNavbar .nav-right {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.tripNavbar .nav-left .nav-items {
+	display: flex;
+	flex: 1;
+
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 27px;
+	height: 100%;
+	position: relative;
+}
+
+.tripNavbar .nav-left .nav-items::before {
+	content: "";
+	height: 30.62px;
+	width: 1px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	align-self: center;
+	background-color: #000000;
+}
+
+.tripNavbar .nav-links {
+	display: flex;
+
+	align-items: center;
+	height: 100%;
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 18px;
+	color: #5e5e62;
+	text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+	/* transition: all 2s linear; */
+}
+.tripNavbar .nav-links.active {
+	color: #000;
+}
+.tripNavbar .nav-left .nav-links.active::after {
+	content: "";
+	width: 100%;
+	height: 6px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #000000;
+	/* transition: all 2s linear; */
+}
+.tripNavbar .nav-link-icon {
+	margin-right: var(--nav-link-icon-me);
+	width: 18px;
+	min-height: 13.26px;
+}
+.tripNavbar .nav-right .sosNotify {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100px;
+	height: 40px;
+	background: #e2e2e2;
+	border-radius: 20px;
+	margin-right: 24px;
+}
+.tripNavbar .nav-right .sosBtn {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 13px;
+	line-height: 18px;
+
+	/* identical to box height */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+
+	/* Extra/Emergency */
+	color: #bb0606;
+}
+.tripNavbar .nav-right .sosNotiNo {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18.43px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+	color: #041342;
+}
+
+.tripNavbar .planTripBtn {
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	gap: 10px;
+	color: #ffffff;
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 700;
+	font-size: var(--nav-links-font);
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	background: #041342;
+	border-radius: 8px;
+	margin-right: var(--nav-planTripbtn-me);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tripNavbar .userIcon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #ffffff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-right: var(--default-fontSize);
+}
+.tripNavbar .userName {
+	font-family: "Mulish";
+	font-style: normal;
+	font-weight: 400;
+	font-size: var(--nav-links-font);
+	line-height: 16px;
+	text-transform: capitalize;
+	color: #000000;
+	margin-right: var(--nav-userName-me);
+}
+.tripNavbar .profileDropDown {
+	/* position: absolute; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	justify-content: space-between;
+	padding: 16px;
+
+	position: absolute;
+	width: 194px;
+	height: 228px;
+	right: 0px;
+	top: 150%;
+	/* bottom: 0; */
+	z-index: 800;
+	background: #ffffff;
+	box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+.tripNavbar .nameBox {
+	width: 46px;
+	height: 46px;
+	left: 0px;
+	top: 0px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* Extra/stopped */
+	background: #f27063;
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+	text-align: center;
+	text-transform: capitalize;
+
+	color: #ffffff;
+	font-stretch: 100;
+	font-variation-settings: "CTGR" 0;
+}
+.tripNavbar .name {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 26px;
+
+	/* identical to box height */
+	/* text-align: center; */
+	text-transform: capitalize;
+
+	color: #000000;
+}
+.tripNavbar .designation {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+	/* text-align: center; */
+	text-transform: capitalize;
+
+	/* Grey */
+	color: #5e5e62;
+	font-stretch: 100;
+}
+.tripNavbar .profileDropDown .DropDownItems {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	cursor: pointer;
+	/* identical to box height */
+	text-align: center;
+	text-transform: capitalize;
+	margin-left: 1.5rem;
+	/* Black */
+	color: #000000;
+	font-stretch: 100;
+	font-variation-settings: "CTGR" 0;
+}
+.tripNavbar .profileDropDown .DropDownItems.logout {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+	text-align: center;
+	text-transform: capitalize;
+
+	/* Extra/Emergency */
+	color: #bb0606;
+	font-stretch: 100;
+	font-variation-settings: "CTGR" 0;
+}

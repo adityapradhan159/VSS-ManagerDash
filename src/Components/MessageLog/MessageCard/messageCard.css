@@ -1,0 +1,57 @@
+.MessageCard{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   height: auto;
+   cursor: pointer;
+}
+.messageCard-Container{
+    width: 90%;
+    height: auto;
+    border-bottom: 1px solid #D9D7D7;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.personNameCategory{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.personDetailsMsg{
+    width: 65%;
+}
+.personDetailsMsg .personName h2{
+    font-size: 19px;
+    font-weight: 400;
+}
+.personCategory{
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.personCategory p{
+    font-size: 10px;
+    font-weight: 400;
+    padding: 2px 8px;
+}
+
+.personCompanyName p{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 2px 0px;
+}   
+
+
+.personLastMsg{
+    font-size: 13px;
+    font-weight: 400;
+    color: #5E5E62;
+}
+
+.lastMsgTime p{
+    font-size: 13px;
+    font-weight: 400;
+}

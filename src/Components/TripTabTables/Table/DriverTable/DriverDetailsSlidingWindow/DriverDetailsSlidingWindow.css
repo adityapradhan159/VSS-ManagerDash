@@ -1,0 +1,105 @@
+.DriverDetailsSlidingWindow {
+	width: 698px;
+	height: 100vh;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1rem 2rem;
+	box-shadow: 0 0 20px 0px gray;
+}
+.DriverDetailsSlidingWindow .bottomTabs {
+	height: calc(100% - 225px);
+}
+.DriverDetailsSlidingWindow .PersonalDetails,
+.DriverDetailsSlidingWindow .Documents,
+.DriverDetailsSlidingWindow .BankDetails,
+.DriverDetailsSlidingWindow .TripHistory {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow-y: auto;
+}
+.DriverDetailsSlidingWindow .driverBasicInfo {
+	display: flex;
+}
+.DriverDetailsSlidingWindow .driverBasicInfo .img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #d9d9d9;
+	margin-right: 0.5rem;
+}
+.DriverDetailsSlidingWindow .driverBasicInfo .name {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 26px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #151515;
+}
+.DriverDetailsSlidingWindow .driverBasicInfo .timeStatus {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	margin-top: 10px;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	color: #000000;
+}
+
+.driverDetailsInfo .title {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Grey */
+	color: #5e5e62;
+}
+.driverDetailsInfo .infoText {
+	/* H3/R */
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 0.5rem;
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}
+
+.DriverDetailsSlidingWindow .nav-tabs {
+	background: rgba(94, 94, 98, 0.05);
+}
+/* =========================================
+ScrollBar hide
+========================================= */
+.DriverDetailsSlidingWindow .PersonalDetails::-webkit-scrollbar,
+.DriverDetailsSlidingWindow .BankDetails::-webkit-scrollbar,
+.DriverDetailsSlidingWindow .TripHistory::-webkit-scrollbar,
+.DriverDetailsSlidingWindow .Documents::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.DriverDetailsSlidingWindow .PersonalDetails,
+.DriverDetailsSlidingWindow .TripHistory,
+.DriverDetailsSlidingWindow .BankDetails,
+.DriverDetailsSlidingWindow .Documents {
+	-ms-overflow-style: none;
+	scrollbar-width: none; /* Firefox */
+}

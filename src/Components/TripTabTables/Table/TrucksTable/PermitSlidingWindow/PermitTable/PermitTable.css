@@ -1,0 +1,42 @@
+.activePermit {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 2px 4px;
+	gap: 10px;
+
+	width: 50px;
+	height: 22px;
+
+	/* Extra/Available */
+	background: #44bba5;
+	border-radius: 2px;
+}
+
+.expiredPermit {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 2px 4px;
+	gap: 10px;
+
+	width: 58px;
+	height: 22px;
+
+	background: #a6a6a6;
+	border-radius: 2px;
+}
+.permitNo {
+	/* H3/B */
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+
+	/* identical to box height */
+	text-transform: capitalize;
+
+	/* Black */
+	color: #000000;
+}
